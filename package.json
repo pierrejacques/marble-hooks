@@ -1,0 +1,30 @@
+{
+  "name": "marble-hooks",
+  "version": "1.0.0",
+  "description": "hooks for rx-like dataflow",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "type": "lib/index.d.ts",
+  "repository": "git@github.com:pierrejacques/marble-hooks.git",
+  "author": "金辰浩 <pierrejacques@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --watchAll --coverage"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.4.1",
+    "@types/jest": "^26.0.9",
+    "jest": "^26.2.2",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "rollup": "^2.23.1",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  }
+}

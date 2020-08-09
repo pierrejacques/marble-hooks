@@ -1,3 +1,7 @@
+# distribution directories
+es/
+lib/
+
 # Logs
 logs
 *.log
